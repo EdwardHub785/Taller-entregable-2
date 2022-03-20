@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body >
+    <h2 class="titulo">CALCULADORA by ELZ</h2>
+    <table class="tabla">
+        <tr id="inputRes1">
+            <td colspan="4"><input type="number" id="pantalla"></td>
+            <td colspan="4"><h4><input type="text" id="h4Resultado" placeholder="Resultado" readonly=""></h4></td>
+        </tr>
+        <tr>
+            <td><button id="uno" type="button" value="1">1</button></td>
+            <td><button id="dos" type="button" value="2">2</button></td>
+            <td><button id="tres" type="button" value="3">3</button></td>
+            <td><button id="btnSuma" type="button">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="cuatro" type="button" value="4">4</button></td>
+            <td><button id="cinco" type="button" value="5">5</button></td>
+            <td><button id="seis" type="button" value="6">6</button></td>
+            <td><button id="btnResta" type="button">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="siete" type="button" value="7">7</button></td>
+            <td><button id="ocho" type="button" value="8">8</button></td>
+            <td><button id="nueve" type="button" value="9">9</button></td>
+            <td><button id="btnMultiplica" type="button">x</button></td>
+        </tr>
+        <tr id="igual">
+            <td class="limpia"><button id="btnLimpia" class="btn4" type="button"><b>C</b></button></td>
+            <td class="cero"><button id="cero" class="btn3" type="button">0</button></td>
+            <td class="igual1"><button id="btnIgual" class="btn1" type="button">=</button></td>
+            <td class="divide"><button id="btnDivide" class="btn2" type="button">/</button></td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./javaS.js"></script>
+</body>
+</html>
