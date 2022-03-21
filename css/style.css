@@ -37,9 +37,11 @@ table td button{
 }
 #inputIng{
     display: flex;
-    margin-left: 280px;
+    margin-left: 250px;
 }
 #divTabla{
+    display: flex;
+    flex-direction: column;
     margin-left: 10px;
 }
 #h4Caracter{
